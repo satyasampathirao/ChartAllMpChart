@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#e8eef7"
+    android:orientation="vertical"
+    >
+
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Spinner
+
+            android:id="@+id/spv_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+
+            android:entries="@array/spinner_reportdate"
+            android:gravity="center"
+            android:popupBackground="#CECDCD"
+            android:spinnerMode="dropdown" />
+
+
+        <TextView
+            android:id="@+id/tvtest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="tvtest"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tvtitlewhen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:text="Completed Tasks Vs Incomplete Tasks"
+            android:textColor="#000"
+            android:textSize="14sp"
+
+            />
+
+
+        <LinearLayout
+            android:id="@+id/llchart1"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/horizontalbarchart1status"
+                android:layout_width="350dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="Closed Tasks Vs Forwarded Tasks"
+                android:textColor="#000"
+                android:textSize="14sp"
+
+                />
+
+
+            <LinearLayout
+
+                android:id="@+id/llchart2"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart1"
+                    android:layout_width="350dp"
+                    android:layout_height="350dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+
+</ScrollView>

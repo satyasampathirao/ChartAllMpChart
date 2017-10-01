@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.satman.satya.chartallmpchart.EntranceActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Barchart"
+        android:onClick="btbarchart"
+        android:id="@+id/btbarchart"
+         />
+
+
+    <Button
+        android:onClick="bthorizonchart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Horizntal Bar Chart"
+        />
+
+
+
+    <Button
+        android:onClick="btpiechart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pie Chart"
+        />
+
+
+
+    <Button
+        android:onClick="btlinechart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Line Chart"
+        />
+
+
+    <Button
+        android:onClick="btppiechart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pie Chart 2"
+        />
+
+
+
+
+</LinearLayout>
